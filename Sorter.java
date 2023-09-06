@@ -2,8 +2,22 @@
 public class Sorter {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		//sorter
+		 int[] arr = {64, 25, 12, 22, 11};
+	        System.out.println("Original Array:");
+	        for (int num : arr) {
+	            System.out.print(num + " ");
+	        }
+
+	        selectionSort(arr);
+
+	        System.out.println("\nSorted Array:");
+	        for (int num : arr) {
+	            System.out.print(num + " ");
+	        }
+	        
+	        
 	}
 	
 	public static void selectionSort(int[] arr) {
